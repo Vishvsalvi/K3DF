@@ -1,12 +1,15 @@
 "use client"
-import "./globals.css";
-import { useState } from "react";
+// import "./globals.css";
+
+import { useEffect, useState } from "react";
 export default function Home() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+
+
   return (
     <>
 
